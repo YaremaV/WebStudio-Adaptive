@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>goit-markup-hw-07</title>
+    <title>goit-markup-hw-08</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g==" crossorigin="anonymous" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/main.min.css">
@@ -13,38 +12,47 @@
 
 <body>
     <header class="page-header">
-        <div class="page-header__container container">
+        
         <nav class="page-header__navigation">
+            <div class="page-header__container container ">
             
             <a href="./index.html" class="page-header__logo"><span class="page-header__logo--color">Web</span>Studio</a>
 
-            <ul class="page-header__menu">
-                <li class="page-header__item"><a href="./index.html" class="page-header__link page-header__link--active">Студия</a></li>
-                <li class="page-header__item"><a href="./portfolio.html" class="page-header__link"> Портфолио</a></li>
-                <li class="page-header__item"><a href="" class="page-header__link"> Контакты</a></li>
-            </ul>
-
+            <button type="button-menu">
+                <svg class="menu-icon" width="24" height="16">
+                    <use href="./Images/SVG-img/menu_24px.svg"></use>
+                    <use href="./Images/SVG-img/close_24px.svg"></use>
+                </svg>
+            </button>
+            <div class="menu-container">
+                <ul class="page-header__menu">
+                    <li class="page-header__item"><a href="./index.html" class="page-header__link page-header__link--active">Студия</a>
+                    </li>
+                    <li class="page-header__item"><a href="./portfolio.html" class="page-header__link"> Портфолио</a></li>
+                    <li class="page-header__item"><a href="" class="page-header__link"> Контакты</a></li>
+                </ul>
+                
+                <ul class="page-header__contacts">
+                    <li class="page-header__item">
+                        <a href="mailto:info@devstudio.com" class="info">
+                            <svg class="page-header__icon" width="16" height="12">
+                                <use href="./Images/SVG-img/sprite.svg#icon-envelope"></use>
+                            </svg>
+                            info@devstudio.com
+                        </a>
+                    </li>
+                    <li class="page-header__item">
+                        <a href="tel:+380991111111" class="info">
+                            <svg class="page-header__icon" width="10" height="16">
+                                <use href="./Images/SVG-img/sprite.svg#icon-tel"></use>
+                            </svg>
+                            +38 096 111 11 11
+                        </a>
+                    </li>
+                </ul>
+            </div>
+         </div>  
         </nav>
-
-        <ul class="page-header__contacts">
-            <li class="page-header__item">
-                <a href="mailto:info@devstudio.com" class="info">
-                <svg class="page-header__icon" width="16" height="12">
-                    <use href="./Images/SVG-img/sprite.svg#icon-envelope"></use>
-                    </svg>
-                    info@devstudio.com
-            </a>
-        </li>
-            <li class="page-header__item">
-                <a href="tel:+380991111111" class="info">
-                    <svg class="page-header__icon" width="10" height="16">
-                        <use href="./Images/SVG-img/sprite.svg#icon-tel"></use>
-                    </svg>
-                        +38 096 111 11 11
-                    </a>
-                </li>
-        </ul>
-    </div>
     </header>
 
     <main>

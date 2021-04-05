@@ -1,18 +1,18 @@
 .works {
   padding-bottom: 94px;
+}
 
-  &__list {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -30px;
-    margin-top: -30px;
-  }
+.works__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
 
-  &__item {
-    flex-basis: calc(100% / 3 - 30px);
-    margin-left: 30px;
-    margin-top: 30px;
-  }
+.works__item {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
 }
 
 .thumb {
@@ -21,4 +21,24 @@
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.thumb__title {
+  position: absolute;
+
+  font-weight: 700;
+  font-size: 14px;
+  width: 100%;
+  padding: 27px 80px;
+  margin-bottom: 0;
+  bottom: 0;
+  left: 0%;
+
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--white-color);
+  background: rgba(47, 48, 58, 0.8);
 }
