@@ -1,0 +1,30 @@
+.page-header__logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+
+  color: var(--praimary-text-color);
+
+  &--color {
+    color: var(--accent-color);
+  }
+}
+
+.footer__logo {
+  display: inline-block;
+  margin-bottom: 20px;
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+
+  color: var(--white-color);
+
+  &--accent {
+    color: var(--accent-color);
+  }
+}

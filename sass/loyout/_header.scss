@@ -1,0 +1,145 @@
+.page-header__container {
+  display: flex;
+  align-items: center;
+}
+
+.page-header__navigation {
+  display: flex;
+  align-items: center;
+}
+
+.page-header__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 93px;
+}
+
+.page-header__item {
+  position: relative;
+  margin-left: 50px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+.page-header__link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  color: var(--praimary-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+
+  &--active {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    color: var(--accent-color);
+    transition: var(--accent-color) 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &::after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 4px;
+      left: 0;
+      transform: translateY(40px);
+
+      background: var(--accent-color);
+      border-radius: 2px;
+    }
+
+    &:hover,
+    &:focus {
+      color: var(--praimary-text-color);
+    }
+  }
+}
+
+.page-header__contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.page-header__icon {
+  margin-right: 10px;
+  fill: var(--title-text-color);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  .info:hover &,
+  .info:focus & {
+    fill: var(--accent-color);
+  }
+}
+
+.info {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--title-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+/* .auth-nav .mail::before {
+  content: "";
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  background-color: red;
+  background-image: url(../Images/SVG-img/envelope.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.auth-nav .tel::before {
+  content: "";
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  background-color: red;
+  background-image: url(../Images/SVG-img/Vector.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+} */
+
+/*  navigation */
+
+.text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
