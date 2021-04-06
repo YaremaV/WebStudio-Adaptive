@@ -1,11 +1,18 @@
+.page-header {
+  @media screen and (max-width: 480px) {
+    min-height: 60px;
+  }
+}
+
 .page-header__container {
-  display: flex;
-  align-items: center;
-  position: relative;
+  // display: flex;
+  // align-items: center;
 }
 
 .page-header__navigation {
+  position: relative;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -13,18 +20,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 93px;
-}
-
-.menu-container {
+  // margin-left: 93px;
 }
 
 .page-header__item {
   position: relative;
-  margin-left: 50px;
+  // margin-left: 50px;
 
   &:first-child {
-    margin-left: 0;
+    // margin-left: 0;
   }
 }
 

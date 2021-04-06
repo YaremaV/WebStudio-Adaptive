@@ -1,5 +1,12 @@
 .works {
   padding-bottom: 94px;
+
+  @media screen and(max-width: 480px) {
+    display: none;
+  }
+  @media screen and(max-width: 768px) {
+    display: none;
+  }
 }
 
 .works__list {
@@ -25,6 +32,7 @@
 
 .thumb__title {
   position: absolute;
+  text-align: center;
 
   font-weight: 700;
   font-size: 14px;
@@ -35,7 +43,6 @@
   left: 0%;
 
   line-height: 1.14;
-  text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
