@@ -30,13 +30,12 @@
 
   &--thumb {
     box-sizing: border-box;
-    width: 170px;
-    height: 90px;
-
     @media screen and (max-width: 480px) {
-      width: 210px;
-      height: 90px;
+      width: 100% - 4 * 30 / 2;
+      margin: 15px;
     }
+    // width: 170px;
+    // height: 90px;
   }
 }
 
