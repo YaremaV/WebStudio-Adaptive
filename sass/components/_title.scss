@@ -1,12 +1,72 @@
-.section-hero__title {
-  margin-bottom: 30px;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+@media screen and (min-width: 768px) {
+  .section-hero__title {
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 
-  color: var(--white-color);
+    color: var(--white-color);
+  }
+
+  .suptitle {
+    margin-top: 0;
+    margin-bottom: 50px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+
+  .clients__title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+
+    color: var(--praimary-text-color);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section-hero__title {
+    padding-top: 118px;
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: var(--white-color);
+  }
+
+  .suptitle {
+    margin-top: 0;
+    margin-bottom: 30px;
+
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+
+  .clients__title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+
+    color: var(--praimary-text-color);
+  }
 }
 
 .works__title {
@@ -30,39 +90,4 @@
   text-transform: uppercase;
 
   color: #212121;
-}
-
-.clients__title {
-  text-align: center;
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-
-  color: var(--praimary-text-color);
-}
-
-.footer-form__title {
-  text-align: left;
-  margin-left: 93px;
-  margin-bottom: 20px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-
-  color: var(--white-color);
-}
-
-.suptitle {
-  margin-top: 0;
-  margin-bottom: 50px;
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
 }

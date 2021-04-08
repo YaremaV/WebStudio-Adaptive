@@ -1,5 +1,7 @@
 .page-header {
   position: relative;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .page-header .container {
@@ -14,19 +16,7 @@
   align-items: center;
 }
 
-.page-header__navigation--container {
-  @media screen and(max-width: 480px) {
-    display: none;
-  }
-}
-
 @media screen and (max-width: 767px) {
-  .page-header__menu {
-    display: none;
-  }
-  .page-header__contacts {
-    display: none;
-  }
 }
 
 .page-header__menu {

@@ -44,19 +44,19 @@
                 </ul>
         </nav>
         
-        <button type="button" class="button-menu " data-modal-open >
+        <button type="button" class="button-menu " data-menu-button >
             <svg class="menu-icon" width="24" height="16">
                 <use href="./Images/SVG-img/sprite.svg#icon-menu_24px"></use>
             </svg>
         </button>
         
 
-        <div class="mobile-menu" data-modal>
+        <div class="mobile-menu " data-menu>
             <ul class="mobile-menu__list">
-                <li class="mobile-menu__item"><a href="./index.html" class="page-header__link page-header__link--active">Студия</a>
+                <li class="mobile-menu__item"><a href="./index.html" class="">Студия</a>
                 </li>
-                <li class="mobile-menu__item"><a href="./portfolio.html" class="page-header__link"> Портфолио</a></li>
-                <li class="mobile-menu__item"><a href="" class="page-header__link"> Контакты</a></li>
+                <li class="mobile-menu__item"><a href="./portfolio.html" class=""> Портфолио</a></li>
+                <li class="mobile-menu__item"><a href="" class=""> Контакты</a></li>
             </ul>
             <ul class="mobile-menu__contacts">
                 <li class="mobile-menu__email">
@@ -77,13 +77,13 @@
                 </li>
             </ul>
             <ul class="mobile-menu__social">
-                <li><a href="">Instagram</a></li>
-                <li><a href="">Twitter</a></li>
-                <li><a href="">Facebook</a></li>
-                <li><a href="">LinkedIn</a></li>
+                <li class="mobile-menu__item"><a href="">Instagram</a></li>
+                <li class="mobile-menu__item"><a href="">Twitter</a></li>
+                <li class="mobile-menu__item"><a href="">Facebook</a></li>
+                <li class="mobile-menu__item"><a href="">LinkedIn</a></li>
             </ul>
 
-            <button type="button" class="button-close" data-modal-close>
+            <button type="button" class="button-close" data-menu-close>
                 <svg class="menu-icon" width="24" height="16">
                     <use href="./Images/SVG-img/sprite.svg#icon-close-modal"></use>
                 </svg>
@@ -510,7 +510,7 @@
 <!-- Открытие/закрытие модального окна -->
 <script src="./JS/modal.js"></script>
 <!-- Mobile-MENU -->
-<script src="./JS/menu.js"></script>
+<script src="./JS/mobile-menu.js"></script>
 </body>
 
 </html>

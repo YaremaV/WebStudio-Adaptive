@@ -13,19 +13,41 @@
   }
 }
 
-.footer__logo {
-  // display: inline-block;
-  // margin-bottom: 20px;
+@media screen and (max-width: 767px) {
+  .footer__logo {
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 20px;
 
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
 
-  color: var(--white-color);
+    color: var(--white-color);
 
-  &--accent {
-    color: var(--accent-color);
+    &--accent {
+      color: var(--accent-color);
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer__logo {
+    display: inline-block;
+    margin-bottom: 20px;
+
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+
+    color: var(--white-color);
+
+    &--accent {
+      color: var(--accent-color);
+    }
   }
 }
