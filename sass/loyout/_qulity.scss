@@ -15,6 +15,38 @@
   }
 }
 
+@media screen and (min-width: 768px) {
+  .qulity {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .qulity__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
+
+  .qulity__item {
+    width: calc((100% - 2 * 30px) / 2);
+    margin: 15px;
+    // width: calc((100%-90px) / 4);
+    // margin-right: 30px;
+    // margin-left: 0;
+  }
+
+  .qulity__thumb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // width: 354px;
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+  }
+}
+
 .qulity {
   // padding-top: 94px;
   // padding-bottom: 94px;
