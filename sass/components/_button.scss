@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) and (max-width: 1139px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .button {
     display: inline-block;
     text-align: center;
@@ -23,6 +23,10 @@
     &:focus {
       background-color: #188ce8;
     }
+  }
+
+  .form__button {
+    margin-bottom: 0;
   }
 
   .footer-form__button {
@@ -79,9 +83,12 @@
       background-color: #188ce8;
     }
   }
+  .form__button {
+    margin-bottom: 0;
+  }
 }
 
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
   .button {
     display: inline-block;
     text-align: center;

@@ -127,37 +127,6 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1139px) {
-  .section-hero__title {
-    padding-top: 118px;
-    margin-bottom: 30px;
-    font-weight: 900;
-    font-size: 26px;
-    line-height: 1.36;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--white-color);
-  }
-  .suptitle {
-    margin-top: 0;
-    margin-bottom: 50px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
-  }
-  .clients__title {
-    text-align: center;
-    margin-bottom: 50px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    color: var(--praimary-text-color);
-  }
-}
-
 @media screen and (max-width: 767px) {
   .section-hero__title {
     padding-top: 118px;
@@ -189,7 +158,38 @@ img {
   }
 }
 
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .section-hero__title {
+    padding-top: 118px;
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-color);
+  }
+  .suptitle {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+  .clients__title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    color: var(--praimary-text-color);
+  }
+}
+
+@media screen and (min-width: 1200px) {
   .section-hero__title {
     margin-bottom: 30px;
     font-weight: 900;
@@ -251,7 +251,7 @@ img {
   color: #212121;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1139px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .button {
     display: inline-block;
     text-align: center;
@@ -273,6 +273,9 @@ img {
   }
   .button:hover, .button:focus {
     background-color: #188ce8;
+  }
+  .form__button {
+    margin-bottom: 0;
   }
   .footer-form__button {
     display: -webkit-box;
@@ -328,9 +331,12 @@ img {
   .button:hover, .button:focus {
     background-color: #188ce8;
   }
+  .form__button {
+    margin-bottom: 0;
+  }
 }
 
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
   .button {
     display: inline-block;
     text-align: center;
@@ -423,6 +429,9 @@ img {
     cursor: pointer;
     border: none;
     background-color: transparent;
+  }
+  .button-menu:hover {
+    fill: var(--accent-color);
   }
   .mobile-menu {
     position: fixed;
@@ -548,18 +557,6 @@ img {
   }
 }
 
-.page-header .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .page-header__navigation {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -572,9 +569,8 @@ img {
           align-items: center;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .page-header {
-    position: relative;
     padding-top: 15px;
     padding-bottom: 15px;
   }
@@ -589,6 +585,14 @@ img {
         -ms-flex-align: center;
             align-items: center;
   }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .page-header {
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
   .page-header__menu {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -600,7 +604,6 @@ img {
         -ms-flex-align: center;
             align-items: center;
     margin-left: 88px;
-    margin-right: 83px;
   }
   .page-header__contacts {
     display: -webkit-box;
@@ -610,12 +613,7 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    margin-left: auto;
   }
   .info {
     font-weight: 500;
@@ -659,6 +657,7 @@ img {
     padding-bottom: 32px;
   }
   .info {
+    padding-right: 30px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -783,7 +782,7 @@ img {
   border-bottom: 1px solid #ececec;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .portfolio {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -818,9 +817,14 @@ img {
   .cards__items:last-child {
     margin-bottom: 0;
   }
+  .cont-border {
+    padding: 20px 24px;
+    border: 1px solid #eeeeee;
+    border-top: none;
+  }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .portfolio {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -854,6 +858,53 @@ img {
   .cards__items {
     width: calc((100% - 2 * 30px) / 2);
     margin: 15px;
+  }
+  .cont-border {
+    padding: 20px 24px;
+    border: 1px solid #eeeeee;
+    border-top: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  .buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 50px;
+  }
+  .buttons__item {
+    margin-left: 8px;
+  }
+  .buttons__item:first-child {
+    margin-left: 0;
+  }
+  .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: -15px;
+  }
+  .cards__items {
+    margin: 15px;
+    width: 370px;
+  }
+  .cont-border {
+    padding: 20px 24px;
+    border: 1px solid #eeeeee;
+    border-top: none;
   }
 }
 
@@ -917,12 +968,6 @@ img {
 .cards__link:focus .cards__overlay {
   -webkit-transform: translateY(0%);
           transform: translateY(0%);
-}
-
-.cont-border {
-  padding: 20px 24px;
-  border: 1px solid #eeeeee;
-  border-top: none;
 }
 
 @media screen and (max-width: 767px) {

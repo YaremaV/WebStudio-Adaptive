@@ -13,6 +13,10 @@
     cursor: pointer;
     border: none;
     background-color: transparent;
+
+    &:hover {
+      fill: var(--accent-color);
+    }
   }
 
   .mobile-menu {
