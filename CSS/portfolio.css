@@ -812,7 +812,6 @@ img {
   }
   .cards__items {
     margin-bottom: 30px;
-    width: 450px;
   }
   .cards__items:last-child {
     margin-bottom: 0;
@@ -860,7 +859,7 @@ img {
     margin: 15px;
   }
   .cont-border {
-    padding: 20px 24px;
+    padding: 20px 0px 20px 24px;
     border: 1px solid #eeeeee;
     border-top: none;
   }
