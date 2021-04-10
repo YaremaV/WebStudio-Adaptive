@@ -27,6 +27,11 @@
   }
 }
 
-// @media screen and (min-width: 768px) {
-//   max-width: 1600px;
-// }
+@media screen and (min-width: 1200px) {
+  .section-hero {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+}
