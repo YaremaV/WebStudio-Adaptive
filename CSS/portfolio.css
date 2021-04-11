@@ -191,7 +191,6 @@ img {
 
 @media screen and (min-width: 1200px) {
   .section-hero__title {
-    padding-top: 200px;
     margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
@@ -341,7 +340,6 @@ img {
   .button {
     display: inline-block;
     text-align: center;
-    margin-bottom: 200px;
     padding: 10px 32px;
     border-radius: 4px;
     font-weight: 700;
