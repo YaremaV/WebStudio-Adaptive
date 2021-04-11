@@ -209,19 +209,26 @@
         <ul class="works__list">
             <li class="works__item">
                 <div class="thumb">
-                    <img src="./Images/desktop.jpg" alt="desktop" width="370" height="294">
+                    <img 
+                     srcset="./Images/desktop.jpg 1x, ./Images/desktop@2x.jpg 2x"
+                     src="./Images/desktop.jpg" 
+                     alt="desktop" >
                     <h3 class="thumb__title">Десктопные приложения</h3>
                 </div>
             </li>
             <li class="works__item">
                 <div class="thumb">
-                    <img src="./Images/telephone.jpg" alt="telephone" width="370" height="294">
+                    <img 
+                    srcset="./Images/telephone.jpg 1x, ./Images/telephone@2x.jpg 2x" 
+                    src="./Images/telephone.jpg" alt="telephone" >
                     <h3 class="thumb__title">Мобильные приложения</h3>
                 </div>
             </li>
             <li class="works__item">
                 <div class="thumb">
-                    <img src="./Images/laptop.jpg" alt="laptop" width="370" height="294">
+                    <img  
+                    srcset="./Images/laptop.jpg 1x, ./Images/laptop@2x.jpg 2x" 
+                    src="./Images/laptop.jpg" alt="laptop" >
                     <h3 class="thumb__title">Дизайнерские решения</h3>
                 </div>                
             </li>
@@ -279,7 +286,14 @@
         </div>
         </li>
         <li class="team__item">
-            <img src="./Images/olga.jpg" alt="Ольга Репина" width="270" height=260>
+            <picture>
+                <source srcset="./Images/mobile/team/Olga-mob.jpg 1x, ./Images/mobile/team/Olga-mob@2x-1.jpg 2x" media="(max-width: 480px)" type="image/jpeg">
+                <source srcset="./Images/mobile/team/Olga-mobw.webp 1x, ./Images/mobile/team/Olga-mob@2xw.webp 2x" media="(max-width: 480px)" type="image/webp">
+                <source srcset="./Images/tablet/team/Olga-tablet.jpg 1x, ./Images/tablet/team/Olga-tablet@2x.jpg 2x"media="(max-width: 1139px)" type="image/jpeg">
+                <source srcset="./Images/tablet/team/Olga-tabletw.webp 1x, ./Images/tablet/team/Olga-tablet@2xw.webp 2x"media="(max-width: 1139px)" type="image/webp">
+                <img srcset="./Images/olga.jpg 1x, ./Images/Olga@2x.jpg 2x" src="./Images/olga.jpg"alt="Ольга Репина">
+            </picture>
+            
         <div class="card">
             <h3 class="card__title">Ольга Репина</h3>
             <p lang="en" class="card__text">Frontend Developer</p>
@@ -316,7 +330,14 @@
         </div>
         </li>
         <li class="team__item">
-            <img src="./Images/nikolay.jpg" alt="Николай Тарасов" width="270" height=260>
+            <picture>
+                <source srcset="./Images/mobile/team/nikolay-mob.jpg 1x, ./Images/mobile/team/nikolay-mob@2x.jpg 2x" media="(max-width: 480px)" type="image/jpeg">
+                <source srcset="./Images/mobile/team/nikolay-mobw.webp 1x, ./Images/mobile/team/nikolay-mob@2xw.webp 2x" media="(max-width: 480px)" type="image/webp">
+                <source srcset="./Images/tablet/team/Nikolay-tablet.jpg 1x, ./Images/tablet/team/Nikolay-tablet@2x.jpg 2x" media="(max-width: 1139px)" type="image/jpeg">
+                <source srcset="./Images/tablet/team/Nikolay-tabletw.webp 1x, ./Images/tablet/team/Nikolay-tablet@2xw.webp 2x" media="(max-width: 1139px)" type="image/webp">
+                <img srcset="./Images/nikolay.jpg 1x, ./Images/Nikolay@2x.jpg 2x" src="./Images/nikolay.jpg" alt="Николай Тарасов">
+            </picture>
+            
         <div class="card">
             <h3 class="card__title">Николай Тарасов</h3>
             <p lang="en" class="card__text">Marketing</p>
@@ -353,7 +374,14 @@
         </div>
         </li>
         <li class="team__item">
-            <img src="./Images/mikhail.jpg" alt="Михаил Ермаков" width="270" height=260>
+            <picture>
+                <source srcset="./Images/mobile/team/Mikhail-mob.jpg 1x, ./Images/mobile/team/Mikhail-mob@2x.jpg 2x" media="(max-width: 480px)" type="image/jpeg">
+                <source srcset="./Images/mobile/team/Mikhail-mobw.webp 1x, ./Images/mobile/team/Mikhail-mob@2xw.webp 2x" media="(max-width: 480px)" type="image/webp">
+                <source srcset="./Images/tablet/team/Mikhail-tablet.jpg 1x, ./Images/tablet/team/Mikhail-tablet@2x.jpg 2x" media="(max-width: 1139px)" type="image/jpeg">
+                <source srcset="./Images/tablet/team/Mikhail-tabletw.webp 1x, ./Images/tablet/team/Mikhail-tablet@2xw.webp 2x" media="(max-width: 1139px)" type="image/webp">
+                <img srcset="./Images/mikhail.jpg 1x, ./Images/Mikhail@2x.jpg 2x" src="./Images/mikhail.jpg" alt="Михаил Ермаков">
+            </picture>
+            
         <div class="card">
             <h3 class="card__title">Михаил Ермаков</h3>
             <p lang="en" class="card__text">UI Designer</p>
