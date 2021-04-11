@@ -1168,6 +1168,11 @@ img {
 @media screen and (max-width: 767px) {
   .section-hero {
     max-width: 480px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../Images/hero-bgc-min.png);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../Images/hero-bgc-min.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--back-color);
   }
 }
 
