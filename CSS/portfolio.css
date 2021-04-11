@@ -129,7 +129,6 @@ img {
 
 @media screen and (max-width: 767px) {
   .section-hero__title {
-    padding-top: 118px;
     margin-bottom: 30px;
     font-weight: 900;
     font-size: 26px;
@@ -160,7 +159,6 @@ img {
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .section-hero__title {
-    padding-top: 118px;
     margin-bottom: 30px;
     font-weight: 900;
     font-size: 26px;
@@ -255,7 +253,6 @@ img {
   .button {
     display: inline-block;
     text-align: center;
-    margin-bottom: 118px;
     padding: 10px 32px;
     border-radius: 4px;
     font-weight: 700;
@@ -314,7 +311,6 @@ img {
     text-align: center;
     padding: 10px 32px;
     border-radius: 4px;
-    margin-bottom: 118px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;

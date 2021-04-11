@@ -129,7 +129,6 @@ img {
 
 @media screen and (max-width: 767px) {
   .section-hero__title {
-    padding-top: 118px;
     margin-bottom: 30px;
     font-weight: 900;
     font-size: 26px;
@@ -160,7 +159,6 @@ img {
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .section-hero__title {
-    padding-top: 118px;
     margin-bottom: 30px;
     font-weight: 900;
     font-size: 26px;
@@ -255,7 +253,6 @@ img {
   .button {
     display: inline-block;
     text-align: center;
-    margin-bottom: 118px;
     padding: 10px 32px;
     border-radius: 4px;
     font-weight: 700;
@@ -314,7 +311,6 @@ img {
     text-align: center;
     padding: 10px 32px;
     border-radius: 4px;
-    margin-bottom: 118px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
@@ -495,6 +491,14 @@ img {
 
 .button-close:hover {
   fill: var(--accent-color);
+}
+
+.section-hero__icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 8px;
+  margin-right: 8px;
 }
 
 .form {
@@ -1158,28 +1162,14 @@ img {
 } */
 .section-hero {
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../Images/hero-bgc-min.png);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../Images/hero-bgc-min.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: var(--back-color);
-}
-
-.section-hero__icon {
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin-top: 8px;
-  margin-right: 8px;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 767px) {
   .section-hero {
-    max-width: 480px;
+    padding-top: 118px;
+    padding-bottom: 118px;
     margin: 0 auto;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../Images/mobile/Hero-mob.png);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../Images/mobile/Hero-mob.png);
@@ -1198,7 +1188,8 @@ img {
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .section-hero {
-    max-width: 1200px;
+    padding-top: 118px;
+    padding-bottom: 118px;
     margin: 0 auto;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../Images/tablet/Herotablet.png);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../Images/tablet/Herotablet.png);
@@ -1212,6 +1203,18 @@ img {
   .section-hero {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../Images/tablet/Herotablet@2x.png);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../Images/tablet/Herotablet@2x.png);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section-hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../Images/hero-bgc-min.png);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../Images/hero-bgc-min.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--back-color);
   }
 }
 
