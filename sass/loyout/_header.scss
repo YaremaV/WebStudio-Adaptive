@@ -44,6 +44,14 @@
     margin-left: auto;
   }
 
+  .page-header__items {
+    margin-bottom: 10px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
   .info {
     font-weight: 500;
     font-size: 12px;

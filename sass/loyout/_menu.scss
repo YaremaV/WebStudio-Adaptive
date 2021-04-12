@@ -22,8 +22,8 @@
   .mobile-menu {
     position: fixed;
     width: 100vw;
-    max-width: 480px;
     height: 100vh;
+    min-width: 320px;
     top: 0;
     left: 0;
     padding: 48px 40px;
