@@ -1258,10 +1258,10 @@ img {
     background-color: #f5f4fa;
     border-radius: 4px;
   }
-  .qulity__text {
+  .qulity__item {
     margin-bottom: 30px;
   }
-  .qulity__text:last-child {
+  .qulity__item:last-child {
     margin-bottom: 0;
   }
 }
