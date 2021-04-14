@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>goit-markup-hw-08</title>
+    <title>WebStudio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g==" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -52,6 +52,12 @@
         
 
         <div class="mobile-menu " data-menu>
+<button type="button" class="mobile-menu__button--close" data-menu-close>
+    <svg class="menu-icon" width="24" height="16">
+        <use href="./Images/SVG-img/sprite.svg#icon-close-modal"></use>
+    </svg>
+</button>
+
             <ul class="mobile-menu__list">
                 <li class="mobile-menu__item mobile-menu__item--active"><a href="./index.html" class="">Студия</a>
                 </li>
@@ -80,11 +86,7 @@
                 <li class="mobile-menu__border"><a href="">LinkedIn</a></li>
             </ul>
 
-            <button type="button" class="mobile-menu__button--close" data-menu-close>
-                <svg class="menu-icon" width="24" height="16">
-                    <use href="./Images/SVG-img/sprite.svg#icon-close-modal"></use>
-                </svg>
-            </button>
+            
         </div>
 
         </div>
