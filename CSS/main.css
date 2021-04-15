@@ -59,7 +59,6 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  /* outline: 1px solid red; */
 }
 
 @media screen and (min-width: 480px) {
@@ -450,10 +449,10 @@ img {
     position: absolute;
     top: 50%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
     width: 528px;
     height: 581px;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
     background: var(--white-color);
     -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
             box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -474,12 +473,12 @@ img {
 }
 
 .button-close {
+  display: inline-block;
   position: absolute;
   top: 0;
   right: 0;
   margin-top: 8px;
   margin-right: 8px;
-  display: inline-block;
   cursor: pointer;
   width: 30px;
   height: 30px;
@@ -834,7 +833,7 @@ img {
     -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
     z-index: 20;
-    background: #ffffff;
+    background: var(--white-color);
     -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
   }
@@ -1351,11 +1350,7 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
-}
-
-.works {
-  padding-bottom: 94px;
+  color: var(--title-text-color);
 }
 
 @media screen and (min-width: 320px) and (max-width: 1199px) {
@@ -1496,7 +1491,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--praimary-text-color);
 }
 
 .card__text {

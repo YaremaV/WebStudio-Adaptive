@@ -41,7 +41,7 @@
   }
 }
 
-@media screen and(min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .team {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -92,7 +92,7 @@
   line-height: 1.14;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--praimary-text-color);
 }
 
 .card__text {
