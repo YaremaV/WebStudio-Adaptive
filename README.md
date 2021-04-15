@@ -1,2 +1,2 @@
 # goit-markup-hw-08
-https://yaremav.github.io/WebStudio-Adaptive/
+ https://yaremav.github.io/goit-markup-hw-08/
