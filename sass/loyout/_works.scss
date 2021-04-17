@@ -6,7 +6,7 @@
 
 @media screen and (min-width: 1200px) {
   .works {
-    padding-bottom: 94px;
+    padding-bottom: var(--section-indent);
   }
 
   .works__list {

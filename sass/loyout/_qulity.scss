@@ -1,7 +1,7 @@
 @media screen and (max-width: 767px) {
   .qulity {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: var(--section-indentMob);
+    padding-bottom: var(--section-indentMob);
   }
 
   .qulity__thumb {
@@ -22,8 +22,8 @@
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .qulity {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: var(--section-indentMob);
+    padding-bottom: var(--section-indentMob);
   }
 
   .qulity__list {
@@ -48,8 +48,8 @@
 
 @media screen and (min-width: 1200px) {
   .qulity {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: var(--section-indent);
+    padding-bottom: var(--section-indent);
   }
 
   .qulity__list {

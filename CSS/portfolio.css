@@ -804,8 +804,8 @@ img {
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .portfolio {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: var(--section-indentMob);
+    padding-bottom: var(--section-indentMob);
   }
   .buttons {
     display: -webkit-box;
@@ -845,8 +845,8 @@ img {
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .portfolio {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: var(--section-indentMob);
+    padding-bottom: var(--section-indentMob);
   }
   .buttons {
     display: -webkit-box;
@@ -887,8 +887,8 @@ img {
 
 @media screen and (min-width: 1200px) {
   .portfolio {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: var(--section-indent);
+    padding-bottom: var(--section-indent);
   }
   .buttons {
     display: -webkit-box;
@@ -1032,7 +1032,7 @@ img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-bottom: 60px;
+    margin-bottom: var(--section-indentMob);
   }
   .social-webs {
     display: -webkit-box;
@@ -1045,7 +1045,7 @@ img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-bottom: 60px;
+    margin-bottom: var(--section-indentMob);
     width: 206px;
     height: 80px;
   }

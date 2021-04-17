@@ -1,7 +1,7 @@
 @media screen and (max-width: 767px) {
   .clients {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: var(--section-indentMob);
+    padding-bottom: var(--section-indentMob);
   }
   .clients__list {
     display: flex;
@@ -18,8 +18,8 @@
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .clients {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: var(--section-indentMob);
+    padding-bottom: var(--section-indentMob);
   }
 
   .clients__list {
@@ -37,8 +37,8 @@
 
 @media screen and(min-width: 1200px) {
   .clients {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: var(--section-indent);
+    padding-bottom: var(--section-indent);
   }
 
   .clients__list {

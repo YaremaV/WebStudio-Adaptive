@@ -12,14 +12,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 60px;
+    margin-bottom: var(--section-indentMob);
   }
 
   .social-webs {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 60px;
+    margin-bottom: var(--section-indentMob);
     width: 206px;
     height: 80px;
   }

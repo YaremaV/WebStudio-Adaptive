@@ -1251,8 +1251,8 @@ img {
 
 @media screen and (max-width: 767px) {
   .qulity {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: var(--section-indentMob);
+    padding-bottom: var(--section-indentMob);
   }
   .qulity__thumb {
     display: -webkit-box;
@@ -1279,8 +1279,8 @@ img {
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .qulity {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: var(--section-indentMob);
+    padding-bottom: var(--section-indentMob);
   }
   .qulity__list {
     display: -webkit-box;
@@ -1313,8 +1313,8 @@ img {
 
 @media screen and (min-width: 1200px) {
   .qulity {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: var(--section-indent);
+    padding-bottom: var(--section-indent);
   }
   .qulity__list {
     display: -webkit-box;
@@ -1363,7 +1363,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   .works {
-    padding-bottom: 94px;
+    padding-bottom: var(--section-indent);
   }
   .works__list {
     display: -webkit-box;
@@ -1407,8 +1407,8 @@ img {
 
 @media screen and (max-width: 767px) {
   .team {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: var(--section-indentMob);
+    padding-bottom: var(--section-indentMob);
     background-color: var(--backgroundcolor-team);
   }
   .team__item {
@@ -1424,8 +1424,8 @@ img {
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .team {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: var(--section-indentMob);
+    padding-bottom: var(--section-indentMob);
     background-color: var(--backgroundcolor-team);
   }
   .team__list {
@@ -1447,8 +1447,8 @@ img {
 
 @media screen and (min-width: 1200px) {
   .team {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: var(--section-indent);
+    padding-bottom: var(--section-indent);
     background-color: var(--backgroundcolor-team);
   }
   .team__list {
@@ -1556,8 +1556,8 @@ img {
 
 @media screen and (max-width: 767px) {
   .clients {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: var(--section-indentMob);
+    padding-bottom: var(--section-indentMob);
   }
   .clients__list {
     display: -webkit-box;
@@ -1576,8 +1576,8 @@ img {
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .clients {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: var(--section-indentMob);
+    padding-bottom: var(--section-indentMob);
   }
   .clients__list {
     display: -webkit-box;
@@ -1596,8 +1596,8 @@ img {
 
 @media screen and (min-width: 1200px) {
   .clients {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: var(--section-indent);
+    padding-bottom: var(--section-indent);
   }
   .clients__list {
     display: -webkit-box;
@@ -1693,7 +1693,7 @@ img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-bottom: 60px;
+    margin-bottom: var(--section-indentMob);
   }
   .social-webs {
     display: -webkit-box;
@@ -1706,7 +1706,7 @@ img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-bottom: 60px;
+    margin-bottom: var(--section-indentMob);
     width: 206px;
     height: 80px;
   }
