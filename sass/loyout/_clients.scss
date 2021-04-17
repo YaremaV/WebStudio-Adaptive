@@ -42,9 +42,7 @@
   }
 
   .clients__list {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    @include centeredFlex($df: flex, $jc: center, $ai: center);
     margin-right: -30px;
   }
 
@@ -65,9 +63,7 @@
 }
 
 .clients__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include centeredFlex($df: flex, $jc: center, $ai: center);
   border: 1px solid #afb1b8;
   border-radius: 4px;
   width: 100%;

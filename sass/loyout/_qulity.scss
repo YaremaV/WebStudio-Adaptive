@@ -5,9 +5,7 @@
   }
 
   .qulity__thumb {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include centeredFlex($df: flex, $jc: center, $ai: center);
     height: 120px;
     margin-bottom: 30px;
     background-color: #f5f4fa;
@@ -40,9 +38,7 @@
   }
 
   .qulity__thumb {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include centeredFlex($df: flex, $jc: center, $ai: center);
     height: 120px;
     margin-bottom: 30px;
     background-color: #f5f4fa;
@@ -71,9 +67,7 @@
   }
 
   .qulity__thumb {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include centeredFlex($df: flex, $jc: center, $ai: center);
     width: 270px;
     height: 120px;
     margin-bottom: 30px;

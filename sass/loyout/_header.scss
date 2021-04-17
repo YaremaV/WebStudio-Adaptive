@@ -1,7 +1,5 @@
 .page-header__navigation {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include centeredFlex($df: flex, $jc: center, $ai: center);
 }
 
 @media screen and(min-width: 320px) and (max-width: 767px) {
@@ -26,9 +24,7 @@
   }
 
   .page-header__menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include centeredFlex($df: flex, $jc: center, $ai: center);
     margin-left: 88px;
   }
 
@@ -64,16 +60,12 @@
 
 @media screen and(min-width: 1200px) {
   .page-header__menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include centeredFlex($df: flex, $jc: center, $ai: center);
     margin-left: 93px;
   }
 
   .page-header__contacts {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include centeredFlex($df: flex, $jc: center, $ai: center);
     margin-left: auto;
     padding-top: 32px;
     padding-bottom: 32px;

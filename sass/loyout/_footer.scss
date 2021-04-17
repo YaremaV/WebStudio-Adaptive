@@ -1,15 +1,11 @@
 @media screen and (max-width: 767px) {
   .footer__contain {
-    display: flex;
+    @include centeredFlex($df: flex, $jc: center, $ai: center);
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
   .footer__left {
-    display: flex;
+    @include centeredFlex($df: flex, $jc: center, $ai: center);
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 
   .footer__add {
@@ -29,10 +25,8 @@
   }
 
   .footer-form__thumb {
-    display: flex;
+    @include centeredFlex($df: flex, $jc: center, $ai: center);
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 
   .footer-form__input {
@@ -74,17 +68,13 @@
 
 @media screen and (min-width: 768px) and(max-width: 1199px) {
   .footer__left {
-    display: flex;
+    @include centeredFlex($df: flex, $jc: center, $ai: center);
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 
   .footer__add {
-    display: flex;
+    @include centeredFlex($df: flex, $jc: center, $ai: center);
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 60px;
   }
 
@@ -103,18 +93,14 @@
   }
 
   .footer-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include centeredFlex($df: flex, $jc: center, $ai: center);
     flex-direction: column;
     padding: 0;
   }
 
   .footer-form__thumb {
-    display: flex;
+    @include centeredFlex($df: flex, $jc: center, $ai: center);
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 
   .footer-form__input {
@@ -178,9 +164,7 @@
   }
 
   .footer-form__thumb {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include centeredFlex($df: flex, $jc: center, $ai: center);
     margin-left: 93px;
   }
 
@@ -285,9 +269,7 @@
 }
 
 .social-webs__link {
-  display: flex;
-  justify-content: center;
-  text-align: center;
+  @include centeredFlex($df: flex, $jc: center, $ai: center);
   width: 44px;
   height: 44px;
   border-radius: 50%;
